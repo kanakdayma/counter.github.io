@@ -97,4 +97,17 @@ li {
     }
 }
 
+ @media (max-width: 768px) {
+            .btn {
+                flex-direction: column; /* Stack buttons vertically */
+                gap: 15px; /* Add more spacing for vertical layout */
+            }
+        }
+@media (max-width: 480px) { /* For mobile screens */
+    .btn {
+        flex: 1 1 90%; /* Buttons stretch to 90% of the container width */
+        font-size: 0.8rem;
+    }
+}
+
 
