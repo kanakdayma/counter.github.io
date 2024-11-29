@@ -56,7 +56,8 @@ li {
   font-weight: 600; 
   margin-bottom: 10px; 
   position: relative; 
-  color: black; 
+  color: black;
+  cursor: pointer;	
 } 
 .icon-main { 
   position: absolute; 
