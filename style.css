@@ -33,11 +33,11 @@
   cursor: pointer;
 }
   
-.container2 { 
+/* .container2 { 
   position: absolute;  
   left: 50%; 
   transform: translate(-50%, -20%); 
-  width: 60%; 
+  width: 60%;  */
 } 
 h1 { 
   text-align: center; 
@@ -80,5 +80,21 @@ li {
   border-bottom: 0px solid #6d6b6b; 
   color: #393636;
 } 
+
+@media (max-width: 768px) { /* For screens 768px and below */
+    .container2 {
+        position: relative; /* Change to relative */
+        top: auto; /* Reset top */
+        left: auto; /* Reset left */
+        width: 100%; /* Full width */
+        height: auto; /* Adjust height */
+    }
+}
+@media (max-width: 768px) { /* For tablets and smaller devices */
+    h2 {
+        font-size: 1.5rem; /* Smaller font size */
+        text-align: left; /* Align text to the left */
+    }
+}
 
 
