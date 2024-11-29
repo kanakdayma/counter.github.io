@@ -38,7 +38,7 @@ btns.forEach((btn) => {
     const answer = item.querySelector(".answer");
     const icon = question.querySelector(".icon-main i");
 
-    icon.addEventListener("click", function () {
+    question.addEventListener("click", function () {
       // Toggle visibility of the answer
       answer.classList.toggle("non-active");
 
